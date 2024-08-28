@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
+/**모달 글꼴**/
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 * {
     font-family: 'Gowun Dodum', sans-serif;
 }
@@ -205,4 +207,55 @@ footer {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+
+/*카드 넘기기 다음 전 버튼 색*/
+.swiper-button-next, 
+.swiper-button-prev {
+    color :white !important;
+}
+
+/* modal */
+.modals img {
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.modal-dialog{
+top : 5% m !important;
+--bs-modal-width: 30% !important;  
+}
+
+#modal1{
+    text-align: center;
+}
+
+
+/*모달 폰트*/
+.col-auto p,
+.modals p,
+.modals h3,
+.madals h4,
+#exampleModalLabel{
+    font-family: "Yeon Sung", system-ui !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.modals h3{
+    font-size: 25px;
+}
+
+/* .modal-header, */
+.modal-body,
+.modal-footer{
+    background-color: whitesmoke !important;
+}
+
+/*모달 버튼 중앙 정렬*/
+.nBtn{
+    text-align: center;
 }
