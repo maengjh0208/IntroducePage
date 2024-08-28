@@ -164,7 +164,92 @@ body {
     justify-content: center;
 }
 
+.team-introduce {
+    width: 1000px;
+}
 
+.test {
+    /* background-color: yellow; */
+    margin-top: 20px;
+    height: 500px;
+    text-align: center;
+}
+
+.test2 {
+    /* background-color: green; */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.test2 img {
+    width: 150px;
+    height: 230px;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    border: 3px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.test2 img:hover {
+    transform: scale(1.1);
+}
+
+.test3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.notepad-container {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.notepad-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.notepad-paper {
+    padding: 20px;
+    position: relative;
+    background-color: #fafafa;
+}
+
+.notepad-line {
+    height: 20px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+}
+
+.notepad-line:last-child {
+    margin-bottom: 0;
+}
+
+#test4 {
+    white-space: pre-line;
+    padding-top: 40px;
+}
+
+.test5 {
+    height: 400px;
+    background-image: url(../image/letter.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
 
 /* 푸터 영역 */
 .wrapper {
