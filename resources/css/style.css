@@ -206,3 +206,63 @@ footer {
     object-fit: cover;
     object-position: center;
 }
+/* 배너 및 슬라이드쇼 스타일링 */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.288);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slideshow-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.slides {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active-slide {
+    display: block;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    border-radius: 10px;
+    background: none;
+}
+
+.banner-content img {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+    
+.banner h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
