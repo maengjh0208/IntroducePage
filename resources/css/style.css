@@ -165,14 +165,44 @@ body {
 
 
 /* 푸터 영역 */
-#wrapper {
+.wrapper {
     height: auto;
     min-height: 100%;
     padding-bottom: 30px;
+    margin-top: 150px;
 }
 
 footer {
     height: 30px;
     position: relative;
     transform: translateY(-100%);
+}
+
+/* 맴버카드 슬라이드 */
+.swiper {
+    width: 250px;
+    max-width: 1000px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateX(-150%) translateY(2%);
+}
+
+.swiper-wrapper {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 30px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
