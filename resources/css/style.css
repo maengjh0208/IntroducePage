@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
+/**모달 글꼴**/
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+
 * {
     font-family: 'Gowun Dodum', sans-serif;
 }
@@ -175,4 +179,40 @@ footer {
     height: 30px;
     position: relative;
     transform: translateY(-100%);
+}
+
+/* modal */
+.modals img {
+    width: 450px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.modal-dialog{
+--bs-modal-width: 30% !important;  
+}
+
+#modal1{
+    text-align: center;
+}
+
+/*모달 폰트*/
+.modals p,
+.modals h3,
+.madals h4,
+#exampleModalLabel{
+    font-family: "Yeon Sung", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.modals h3{
+    font-size: 25px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer{
+    background-color: papayawhip !important;
 }
