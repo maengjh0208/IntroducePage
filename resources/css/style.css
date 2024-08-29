@@ -276,7 +276,7 @@ footer {
     max-width: 1000px;
     margin-top: auto;
     margin-bottom: auto;
-    transform: translateX(-150%) translateY(2%);
+    transform: translateX(-30%) translateY(2%);
 }
 
 .swiper-wrapper {
@@ -412,4 +412,23 @@ top : 5% m !important;
 
 .btn-secondary{
     width:100% !important;
+}
+
+/* ----프로필 게이지부분------- */
+.wrap {
+    width: 500;
+    height: 500;
+    display: flex;
+    align-items: flex-start;
+}
+
+.progress {
+    width: 300px;
+    height: 300px;
+}
+
+.pgrtext {
+    color: black;
+    font-style: italic;
+    font-size: 1.5rem;
 }
