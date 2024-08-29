@@ -109,6 +109,19 @@
                         <button style="border-color: white;"><img src="resources/image/Github-Dark.jpg"></button>
                     </div>
                 </div>
+                <script>
+                    function scrollToSection(sectionId) {
+                        const section = document.getElementById(sectionId);
+                        const offset = 200PX; // 원하는 픽셀 수 만큼 조정 (예: 100px)
+                        const elementPosition = section.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - offset;
+                
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                </script>
 
                 <!-- 2 -->
                 <div class="row align-items-center">
