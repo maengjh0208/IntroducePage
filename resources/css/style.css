@@ -166,12 +166,26 @@ body {
 
 .team-intro-main {
     width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
-.test {
-    /* background-color: yellow; */
+.team-intro-logo {
     margin-top: 20px;
-    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+.team-intro-logo img {
+    height: 100%;
+}
+
+.team-intro-content {
+    margin-top: 20px;
+    height: 650px;
     text-align: center;
 }
 

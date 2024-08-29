@@ -74,7 +74,7 @@
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">설명 & 특징</button>
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">구성원</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
@@ -87,10 +87,14 @@
             </ul>
 
             <!-- 탭 내부 내용 영역 -->
-            <div class="tab-content test" id="myTabContent">
+            <div class="tab-content team-intro-content" id="myTabContent">
                 <!-- 팀 설명 & 특징 -->
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                     tabindex="0">
+                    <div class="team-intro-logo">
+                        <img src="resources/image/kotlin1.png" alt="">
+                    </div>
+
                     <div class="team-intro-1">
                         <img src="resources/image/MJH3.png" alt="">
                         <img src="resources/image/JMS1.png" alt="">
@@ -99,9 +103,10 @@
                         <img src="resources/image/PDH1.jpg" alt="">
                     </div>
                     <div>
-                        <p>팀 소개와 관련된 내용을 적으면 된다.</p>
-                        <p>팀 소개와 관련된 내용을 적으면 된다.</p>
-                        <p>팀 소개와 관련된 내용을 적으면 된다.</p>
+                        <br>
+                        <p>평균 나이 30대 이상</p>
+                        <p>나이 만큼이나 열정도 많은</p>
+                        <p>저희는 코틀인 팀 입니다.</p>
                     </div>
                 </div>
 
@@ -181,7 +186,7 @@
                                 <div class="col-auto">
                                     <p>이메일 : 네이버</p>
                                     <p>sns : 없음</p>
-                                    
+
 
                                 </div>
                             </div>
@@ -263,7 +268,7 @@
                                 <div class="col-auto">
                                     <p>이메일 : 네이버</p>
                                     <p>sns : 인스타</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -345,7 +350,7 @@
                                 <div class="col-auto">
                                     <p>이메일 : 구글</p>
                                     <p>sns : 없음</p>
-                                    
+
 
                                 </div>
                             </div>
@@ -427,7 +432,7 @@
                                 <div class="col-auto">
                                     <p>이메일 : 네이버</p>
                                     <p>sns : 싸이월드</p>
-                                
+
 
                                 </div>
                             </div>
@@ -510,7 +515,7 @@
                                 <div class="col-auto">
                                     <p>이메일 : 네이버</p>
                                     <p>sns : 없음</p>
-                                    
+
 
                                 </div>
                             </div>
@@ -903,11 +908,11 @@
     });
 
     // 팀 소개란 - 글자에 애니메이션 부여
-    const content = "\n안녕하세요. 여러분\n우리 약속 하나만 해요.\n\n일찍 일어나기\n운동 열심히 하기\n자기 계발 꾸준히 하기\n오늘 할 일 내일로 미루기\n쉽게 포기하지 않기";
+    const content = "\n안녕하세요. 여러분\n우리 약속 하나만 해요.\n\n일찍 일어나기\n운동 열심히 하기\n오늘 할 일 내일로 미루기\n자기 계발 꾸준히 하기\n쉽게 포기하지 않기\n밤새지 않기\n작은 실패에 좌절하지 않기\n긍정적인 생각하기";
     const text1 = document.querySelector("#team-intro-promise");
     let typingSpeed = 220;
     let typingSpeedSlow = 200; // 초기 속도
-    let typingSpeedFast = 40;
+    let typingSpeedFast = 45;
 
     let i = 0;
     function typing() {
