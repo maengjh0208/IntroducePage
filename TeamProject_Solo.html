@@ -32,10 +32,10 @@
                         <a class="nav-link" onclick="scrollToSection('home')">홈</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="scrollToSection('Comment')">팀 소개</a>
+                        <a class="nav-link" onclick="scrollToSection('team-intro-title')">팀 소개</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="scrollToSection('team-member')">팀원 소개</a>
+                        <a class="nav-link" onclick="scrollToSection('team-member-title')">팀원 소개</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -67,9 +67,9 @@
     </div>
 
     <!-- 팀 소개 ------------------------------------------------------------------------------------------- -->
-    <div class="card-container">
+    <div id="team-intro-title" class="card-container">
         <div class="section-title" id="Comment">팀 소개</div>
-        <div class="team-introduce">
+        <div class="team-intro-main">
             <!-- 탭 영역 -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -91,7 +91,7 @@
                 <!-- 팀 설명 & 특징 -->
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                     tabindex="0">
-                    <div class="test2">
+                    <div class="team-intro-1">
                         <img src="resources/image/MJH3.png" alt="">
                         <img src="resources/image/JMS1.png" alt="">
                         <img src="resources/image/LHS1.jpg" alt="">
@@ -108,7 +108,7 @@
                 <!-- 팀 목표 -->
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                     tabindex="0">
-                    <div class="test3">
+                    <div class="team-intro-2">
                         <div class="notepad-container">
                             <div class="notepad-header">Hard Skills</div>
                             <div class="notepad-paper">
@@ -145,8 +145,8 @@
                 <!-- 팀 약속 -->
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
                     tabindex="0">
-                    <div class="test5">
-                        <div id="test4"></div>
+                    <div class="team-intro-3">
+                        <div id="team-intro-promise"></div>
                     </div>
                 </div>
             </div>
@@ -154,8 +154,8 @@
     </div>
 
     <!-- 팀원 상세 소개 ------------------------------------------------------------------------------------------- -->
-    <div class="card-container">
-        <div class="section-title" style="margin-top: 300px; margin-bottom: 150px;" id="team-member">2조의 멤버 카드</div>
+    <div id="team-member-title" class="card-container">
+        <div class="section-title" style="margin-top: 200px; margin-bottom: 150px;" id="team-member">2조의 멤버 카드</div>
         <!-- Slider main container -->
         <div class="wrap">
             <div class="swiper">
@@ -854,7 +854,7 @@
     function scrollToSection(sectionId) {
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView({ behavior: "smooth", block: "center" });
+            element.scrollIntoView({ behavior: "smooth" });
         }
     }
 
@@ -904,7 +904,7 @@
 
     // 팀 소개란 - 글자에 애니메이션 부여
     const content = "\n안녕하세요. 여러분\n우리 약속 하나만 해요.\n\n일찍 일어나기\n운동 열심히 하기\n자기 계발 꾸준히 하기\n오늘 할 일 내일로 미루기\n쉽게 포기하지 않기";
-    const text1 = document.querySelector("#test4");
+    const text1 = document.querySelector("#team-intro-promise");
     let typingSpeed = 220;
     let typingSpeedSlow = 200; // 초기 속도
     let typingSpeedFast = 40;

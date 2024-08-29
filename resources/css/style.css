@@ -164,7 +164,7 @@ body {
     justify-content: center;
 }
 
-.team-introduce {
+.team-intro-main {
     width: 1000px;
 }
 
@@ -175,8 +175,7 @@ body {
     text-align: center;
 }
 
-.test2 {
-    /* background-color: green; */
+.team-intro-1 {
     height: 300px;
     display: flex;
     align-items: center;
@@ -184,7 +183,7 @@ body {
     gap: 30px;
 }
 
-.test2 img {
+.team-intro-1 img {
     width: 150px;
     height: 230px;
     border-radius: 30px;
@@ -193,11 +192,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.test2 img:hover {
+.team-intro-1 img:hover {
     transform: scale(1.1);
 }
 
-.test3 {
+.team-intro-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,12 +237,12 @@ body {
     margin-bottom: 0;
 }
 
-#test4 {
+#team-intro-promise {
     white-space: pre-line;
     padding-top: 40px;
 }
 
-.test5 {
+.team-intro-3 {
     height: 400px;
     background-image: url(../image/letter.png);
     background-position: center;
