@@ -264,6 +264,11 @@ footer {
     position: relative;
     transform: translateY(-100%);
 }
+.wrapper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 맴버카드 슬라이드 */
 .swiper {
