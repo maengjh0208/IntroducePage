@@ -404,3 +404,7 @@ top : 5% m !important;
     font-size: 1.5rem;
     margin: 10px 0;
 }
+
+.btn-secondary{
+    width:100% !important;
+}
